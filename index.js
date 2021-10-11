@@ -45,10 +45,10 @@ MongoClient.connect(v2url,{
 const example = require (('./routes/example'))
 const sendgridExample = require(('./routes/sendgrid-example'))
 
-app.use('/sendgrid-example', sendgridExample)
+app.use('/sendgrid', sendgridExample)
 app.use('/example',example)
 
 
 
 
-app.listen(port, () => console.log(`Nosebuttr backend listening at http://localhost:${port}`))
+app.listen(port, () => console.log(`letrolytes backend listening at http://localhost:${port}`))
