@@ -7,7 +7,7 @@ client.setApiKey(process.env.sendgrid_key1)
 const mongo = require('mongodb');
 
 const express = require('express');
-const e = require('express');
+
 const router = express.Router();
 
 
